@@ -1,3 +1,3 @@
 # test
 
-this is a simple test [test](file://%0d/usr/bin/gnome-shell),<a href="file://%0d/usr/bin/gnome-shell">test</a>
+this is a simple test [test](data://%0d/usr/bin/gnome-shell),<a href="file://%0d/usr/bin/gnome-shell">test</a>
