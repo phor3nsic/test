@@ -1,5 +1,31 @@
-<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <iframe xmlns="http://www.w3.org/1999/xhtml" src-doc="https://httpbin.org/basic-auth/user/passwd" width="100%" height="100%"></iframe>
-  </foreignObject>
+<svg viewBox="-16 -32 880 192" width="880" height="192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect x="-16" y="-32" width="880" height="192" fill="black" />
+
+  <!-- Jogador (nave) -->
+  <rect id="player" x="50" y="80" width="40" height="20" fill="cyan" />
+
+  <!-- Inimigo -->
+  <rect id="enemy" x="800" y="80" width="40" height="20" fill="red" />
+
+  <!-- Animação do inimigo -->
+  <animate
+    xlink:href="#enemy"
+    attributeName="x"
+    from="880"
+    to="-40"
+    dur="5s"
+    repeatCount="indefinite"
+  />
+
+  <!-- Tiro -->
+  <rect id="bullet" x="90" y="90" width="10" height="5" fill="yellow">
+    <animate
+      attributeName="x"
+      from="90"
+      to="880"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </rect>
 </svg>
