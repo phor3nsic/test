@@ -10,7 +10,7 @@
 
   <!-- Animação do inimigo -->
   <animate
-    xlink:href="#enemy"
+    href="#enemy"
     attributeName="x"
     from="880"
     to="-40"
