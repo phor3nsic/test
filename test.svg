@@ -1,5 +1,5 @@
 <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <iframe xmlns="http://www.w3.org/1999/xhtml" src="https://httpbin.org/basic-auth/user/passwd" width="100%" height="100%"></iframe>
+    <iframe xmlns="http://www.w3.org/1999/xhtml" src-doc="https://httpbin.org/basic-auth/user/passwd" width="100%" height="100%"></iframe>
   </foreignObject>
 </svg>
